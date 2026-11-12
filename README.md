@@ -72,5 +72,6 @@ results/          generated outputs (git-ignored by default)
 - Posterior uncertainty here is parameter uncertainty under the model. It does not capture model misspecification.
 - The same pipeline can be pointed at Home Credit or Give Me Some Credit by writing a loader that returns a `CreditData` object (see `src/data.py`). Those datasets are much larger, so use a subsample or variational inference for the hierarchical model.
 
+## License
 
-
+MIT
