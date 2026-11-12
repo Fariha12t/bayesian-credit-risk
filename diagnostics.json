@@ -1,0 +1,18 @@
+{
+  "bayes_lr": {
+    "max_rhat": 1.0030046418667071,
+    "min_ess_bulk": 1362.310811485802,
+    "divergences": 0
+  },
+  "hierarchical": {
+    "max_rhat": 1.00293728772802,
+    "min_ess_bulk": 873.0927167661314,
+    "divergences": 0
+  },
+  "uncertainty": {
+    "error_rate_high_uncertainty_half": 0.35333333333333333,
+    "error_rate_low_uncertainty_half": 0.15333333333333332,
+    "spearman_std_vs_error": 0.2573566400477236,
+    "mean_94pct_interval_width": 0.2924072270172177
+  }
+}

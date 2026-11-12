@@ -4,6 +4,5 @@ __pycache__/
 venv/
 .ipynb_checkpoints/
 .DS_Store
-# Generated outputs: remove the next line if you want to commit your results
-results/
-!results/.gitkeep
+# Raw data not redistributed; results/ is committed
+data/credit.csv

@@ -1,0 +1,98 @@
+{
+  "Bayesian LR minus Logistic regression (MLE) | auc": {
+    "mean_diff": 0.0009087771542119529,
+    "ci95": [
+      -0.0014071840244117757,
+      0.003351797270672843
+    ],
+    "excludes_zero": false
+  },
+  "Bayesian LR minus Logistic regression (MLE) | brier": {
+    "mean_diff": -0.00014210187510114346,
+    "ci95": [
+      -0.000609725729584263,
+      0.0002909919096045118
+    ],
+    "excludes_zero": false
+  },
+  "Bayesian LR minus Logistic regression (MLE) | log_loss": {
+    "mean_diff": -0.001112246900951759,
+    "ci95": [
+      -0.002623465393621463,
+      0.00032512521554915703
+    ],
+    "excludes_zero": false
+  },
+  "Bayesian LR minus Logistic regression (MLE) | ece": {
+    "mean_diff": -0.0011860262782671703,
+    "ci95": [
+      -0.016968335765821862,
+      0.011907240669968433
+    ],
+    "excludes_zero": false
+  },
+  "Hierarchical Bayes minus Logistic regression (MLE) | auc": {
+    "mean_diff": 0.017775593026082098,
+    "ci95": [
+      0.00738533257028722,
+      0.02868758072357524
+    ],
+    "excludes_zero": true
+  },
+  "Hierarchical Bayes minus Logistic regression (MLE) | brier": {
+    "mean_diff": -0.006591757470200787,
+    "ci95": [
+      -0.010215400865204612,
+      -0.00298698310468074
+    ],
+    "excludes_zero": true
+  },
+  "Hierarchical Bayes minus Logistic regression (MLE) | log_loss": {
+    "mean_diff": -0.01719337234721524,
+    "ci95": [
+      -0.026563524452565455,
+      -0.008193250384612376
+    ],
+    "excludes_zero": true
+  },
+  "Hierarchical Bayes minus Logistic regression (MLE) | ece": {
+    "mean_diff": 0.015118502019157471,
+    "ci95": [
+      -0.023980063515366763,
+      0.05414444342531057
+    ],
+    "excludes_zero": false
+  },
+  "XGBoost minus Logistic regression (MLE) | auc": {
+    "mean_diff": 0.020370381759093996,
+    "ci95": [
+      -0.015802959782457875,
+      0.055553082292800246
+    ],
+    "excludes_zero": false
+  },
+  "XGBoost minus Logistic regression (MLE) | brier": {
+    "mean_diff": -0.0028588909060033646,
+    "ci95": [
+      -0.016756221899742033,
+      0.011912436820957285
+    ],
+    "excludes_zero": false
+  },
+  "XGBoost minus Logistic regression (MLE) | log_loss": {
+    "mean_diff": -0.010594284870748918,
+    "ci95": [
+      -0.04717314644142036,
+      0.03068431693209971
+    ],
+    "excludes_zero": false
+  },
+  "XGBoost minus Logistic regression (MLE) | ece": {
+    "mean_diff": -0.015176265393458215,
+    "ci95": [
+      -0.057600395245348275,
+      0.02747835477784088
+    ],
+    "excludes_zero": false
+  }
+}

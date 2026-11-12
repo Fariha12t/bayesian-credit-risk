@@ -1,0 +1,16 @@
+,mean_abs_shap
+checking_status_unknown,0.5594
+duration,0.4636
+log_credit_amount,0.3545
+credit_history_critical,0.2804
+savings_status_lt_100_DM,0.2332
+checking_status_lt_0_DM,0.2106
+employment_4_-_7_yrs,0.1823
+age,0.179
+other_payment_plans_bank,0.1417
+installment_commitment,0.1387
+housing_rent,0.1255
+employment_0_-_1_yrs,0.1228
+purpose_car_(used),0.1212
+property_magnitude_real_estate,0.1108
+property_magnitude_unknown/none,0.1051

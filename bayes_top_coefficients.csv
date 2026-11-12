@@ -1,0 +1,16 @@
+feature,abs_posterior_mean
+checking_status_unknown,1.2768
+employment_4_-_7_yrs,1.0662
+credit_history_fully_repaid_this_bank,0.9794
+housing_rent,0.9681
+credit_history_fully_repaid,0.9395
+credit_history_repaid,0.7793
+property_magnitude_unknown/none,0.7783
+other_payment_plans_none,0.7584
+savings_status_gt_1000_DM,0.7265
+savings_status_unknown,0.7114
+credit_history_delayed,0.5511
+employment_gt_7_yrs,0.5157
+duration_z,0.4665
+savings_status_lt_100_DM,0.3914
+employment_1_-_4_yrs,0.3542

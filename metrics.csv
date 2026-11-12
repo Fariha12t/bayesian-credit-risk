@@ -1,0 +1,5 @@
+model,accuracy,auc,brier,log_loss,ece
+XGBoost,0.7467,0.7822,0.1698,0.511,0.0576
+Logistic regression (MLE),0.7467,0.7619,0.1727,0.5218,0.0781
+Bayesian LR (posterior mean),0.7467,0.7628,0.1725,0.5207,0.0797
+Hierarchical Bayes (posterior mean),0.75,0.7795,0.1661,0.5047,0.0936
