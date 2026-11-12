@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+pymc>=5.10
+arviz>=0.17
+xgboost>=2.0
+shap>=0.44

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+# Generated outputs: remove the next line if you want to commit your results
+results/
+!results/.gitkeep
