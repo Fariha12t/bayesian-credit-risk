@@ -63,10 +63,22 @@ def _preprocess(raw: pd.DataFrame) -> CreditData:
     return CreditData(X_lin, X_tree, codes.astype(int), [str(n) for n in names], y)
 
 
-def load_german_credit() -> CreditData:
-    from sklearn.datasets import fetch_openml
+def load_german_credit(local_path: str = "data/credit.csv") -> CreditData:
+    """Load German Credit from OpenML; fall back to a local CSV if OpenML is unreachable."""
+    from pathlib import Path
 
-    raw = fetch_openml("credit-g", version=1, as_frame=True).frame
+    try:
+        from sklearn.datasets import fetch_openml
+
+        raw = fetch_openml("credit-g", version=1, as_frame=True).frame
+    except Exception as e:  # network error, OpenML down, etc.
+        p = Path(local_path)
+        if not p.exists():
+            raise RuntimeError(
+                f"OpenML download failed ({e}) and {local_path} was not found. See data/README.md."
+            ) from e
+        print(f"      OpenML unreachable; using {local_path}")
+        raw = pd.read_csv(p)
     return _preprocess(raw)
 
 
