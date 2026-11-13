@@ -16,7 +16,7 @@
     "excludes_zero": false
   },
   "Bayesian LR minus Logistic regression (MLE) | log_loss": {
-    "mean_diff": -0.001112246900951759,
+    "mean_diff": -0.0011122469009517588,
     "ci95": [
       -0.002623465393621463,
       0.00032512521554915703
