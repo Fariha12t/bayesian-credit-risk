@@ -2,7 +2,7 @@
 
 Bayesian logistic regression and a hierarchical model for credit default, compared against an XGBoost baseline on the public **German Credit** dataset (UCI / OpenML `credit-g`, 1,000 applicants).
 
-The question this project answers: **a single accuracy number (for example, the 97.8% reported in my earlier XGBoost work) says nothing about how sure the model is about each applicant.** A Bayesian treatment gives a full posterior over default probability for every applicant, so we can see calibration, credible intervals, and where the model should abstain.
+The question this project answers: **a single accuracy number (for example, the 97.8% reported in our earlier XGBoost paper) says nothing about how sure the model is about each applicant.** A Bayesian treatment gives a full posterior over default probability for every applicant, so we can see calibration, credible intervals, and where the model should abstain.
 
 ## What is in here
 
